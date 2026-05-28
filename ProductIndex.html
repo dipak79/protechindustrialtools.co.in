@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8" />
+
+<title>ProTech Industrial Tools</title>
+
+<style type="text/css">
+
+body{
+    margin:0;
+    background:#eef2f5;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#222;
+}
+
+/* ===== HERO ===== */
+
+.hero{
+    background:#003b78;
+    padding:25px 35px 70px 35px;
+    color:#ffffff;
+}
+
+/* ===== TOP CONTACT ===== */
+
+.top-contact{
+    width:100%;
+    margin-bottom:45px;
+}
+
+.top-contact td{
+    font-size:13px;
+    color:#ffffff;
+}
+
+.top-contact a{
+    color:#ffffff;
+    text-decoration:none;
+}
+
+/* ===== COMPANY ===== */
+
+.company{
+    display:flex;
+    align-items:center;
+}
+
+.logo{
+    width:90px;
+    height:90px;
+    background:#ffffff;
+    border-radius:16px;
+    text-align:center;
+    line-height:90px;
+    font-size:38px;
+    font-weight:bold;
+    color:#003b78;
+    margin-right:20px;
+}
+
+.company h1{
+    margin:0;
+    font-size:48px;
+    font-weight:bold;
+}
+
+.company p{
+    margin-top:12px;
+    font-size:17px;
+    color:#d7e5f5;
+    line-height:30px;
+    width:70%;
+}
+
+/* ===== BUTTON ===== */
+
+.hero-btn{
+    display:inline-block;
+    margin-top:25px;
+    background:#ff7a00;
+    color:#ffffff;
+    text-decoration:none;
+    padding:13px 30px;
+    border-radius:6px;
+    font-size:14px;
+    font-weight:bold;
+}
+
+.hero-btn:hover{
+    background:#e56b00;
+}
+
+/* ===== MAIN ===== */
+
+.main{
+    width:95%;
+    margin:35px auto;
+}
+
+.title{
+    text-align:center;
+    margin-bottom:35px;
+}
+
+.title h2{
+    margin:0;
+    font-size:34px;
+    color:#003366;
+}
+
+/* ===== GRID ===== */
+
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+
+/* ===== CARD ===== */
+
+.card{
+    width:23%;
+    background:#ffffff;
+    border-radius:14px;
+    overflow:hidden;
+    box-shadow:0 4px 15px rgba(0,0,0,0.10);
+    margin-bottom:25px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+/* ===== IMAGE ===== */
+
+.image{
+    height:190px;
+    overflow:hidden;
+    position:relative;
+    background:#ffffff;
+}
+
+.image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+    font-size:0;
+    color:transparent;
+}
+
+/* ===== TAG ===== */
+
+.tag{
+    position:absolute;
+    top:12px;
+    left:12px;
+    background:#ff7a00;
+    color:#ffffff;
+    padding:6px 12px;
+    border-radius:30px;
+    font-size:10px;
+    font-weight:bold;
+}
+
+/* ===== CONTENT ===== */
+
+.content{
+    padding:18px;
+}
+
+.content h3{
+    margin-top:0;
+    margin-bottom:12px;
+    color:#003366;
+    font-size:22px;
+}
+
+.content p{
+    font-size:13px;
+    line-height:24px;
+    color:#666666;
+}
+
+/* ===== LIST ===== */
+
+.list{
+    background:#f7f9fc;
+    border:1px solid #d8e1ea;
+    border-radius:10px;
+    padding:12px;
+    height:120px;
+    overflow-y:auto;
+    margin-top:16px;
+}
+
+.list ul{
+    margin:0;
+    padding-left:18px;
+}
+
+.list li{
+    margin-bottom:8px;
+    font-size:12px;
+    line-height:18px;
+}
+
+/* ===== BUTTON ===== */
+
+.btn{
+    display:block;
+    text-align:center;
+    margin-top:18px;
+    background:#003366;
+    color:#ffffff;
+    text-decoration:none;
+    padding:11px;
+    border-radius:6px;
+    font-size:13px;
+    font-weight:bold;
+}
+
+.btn:hover{
+    background:#001f42;
+}
+
+/* ===== FOOTER ===== */
+
+.footer{
+    background:#00254f;
+    color:#ffffff;
+    padding:30px;
+    margin-top:40px;
+    text-align:center;
+    font-size:13px;
+    line-height:28px;
+}
+
+/* ===== MOBILE ===== */
+
+@media screen and (max-width:1100px){
+
+.card{
+    width:48%;
+}
+
+.company p{
+    width:100%;
+}
+
+}
+
+@media screen and (max-width:700px){
+
+.card{
+    width:100%;
+}
+
+.hero{
+    padding:20px;
+}
+
+.company{
+    display:block;
+}
+
+.logo{
+    margin-bottom:20px;
+}
+
+.company h1{
+    font-size:34px;
+}
+
+.company p{
+    width:100%;
+    font-size:14px;
+    line-height:26px;
+}
+
+.top-contact td{
+    display:block;
+    text-align:center;
+    padding:5px 0;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- HERO -->
+
+<div class="hero">
+
+<table class="top-contact" cellpadding="0" cellspacing="0">
+
+<tr>
+
+<td>
+Website:
+<a href="#">
+www.protechindustrialtools.com
+</a>
+</td>
+
+<td align="right">
+Contact: +91 98111-82148 |
+WhatsApp: +91 9270718653
+</td>
+
+</tr>
+
+</table>
+
+<div class="company">
+
+<div class="logo">
+PT
+</div>
+
+<div>
+
+<h1>
+ProTech Industrial Tools
+</h1>
+
+<p>
+Hydraulic Clamping · Industrial Automation ·
+Hydraulic Systems · Material Handling Equipment
+</p>
+
+<a href="ContactUs.html"
+class="hero-btn">
+
+Send Enquiry
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- MAIN -->
+
+<div class="main">
+
+<div class="title">
+
+<h2>
+Industrial Product Range
+</h2>
+
+</div>
+
+<div class="grid">
+
+<!-- CARD 1 -->
+
+<div class="card">
+
+<div class="image">
+
+<img src="images/hydraulic-clamping.jpg"
+alt=""
+onerror="this.style.display='none'" />
+
+<div class="tag">
+INDUSTRIAL
+</div>
+
+</div>
+
+<div class="content">
+
+<h3>
+Hydraulic Clamping
+</h3>
+
+<p>
+Industrial hydraulic clamping systems
+for automation applications.
+</p>
+
+<div class="list">
+
+<ul>
+
+<li>Hydropneumatic Intensifier</li>
+<li>Compact Cylinder</li>
+<li>Swing Cylinder</li>
+<li>Work Support</li>
+<li>Rotary Coupling</li>
+
+</ul>
+
+</div>
+
+<a href="HydraulicClamping.html"
+class="btn">
+
+View Details
+
+</a>
+
+</div>
+
+</div>
+
+<!-- CARD 2 -->
+
+<div class="card">
+
+<div class="image">
+
+<img src="images/filter.jpg"
+alt=""
+onerror="this.style.display='none'" />
+
+<div class="tag">
+FILTERS
+</div>
+
+</div>
+
+<div class="content">
+
+<h3>
+FLUID CONNECTORS & Hydraulic Hoses
+</h3>
+
+<p>
+Hydraulic filtration systems and
+industrial filter elements.
+</p>
+
+<div class="list">
+
+<ul>
+
+<li>High Pressure Filters</li>
+<li>Return Line Filters</li>
+<li>Duplex Filters</li>
+<li>SS Welded Elements</li>
+<li>Pressure Gauges</li>
+
+</ul>
+
+</div>
+
+<a href="Filters.html"
+class="btn">
+
+View Details
+
+</a>
+
+</div>
+
+</div>
+
+<!-- CARD 3 -->
+
+<div class="card">
+
+<div class="image">
+
+<img src="images/powerpack.jpg"
+alt=""
+onerror="this.style.display='none'" />
+
+<div class="tag">
+HYDRAULICS
+</div>
+
+</div>
+
+<div class="content">
+
+<h3>
+Power Packs
+</h3>
+
+<p>
+Industrial hydraulic systems,
+power packs and cylinders.
+</p>
+
+<div class="list">
+
+<ul>
+
+<li>Hydraulic Power Packs</li>
+<li>Hydraulic Cylinders</li>
+<li>Hydraulic Pullers</li>
+<li>Torque Wrench</li>
+<li>Hydraulic Pumps</li>
+
+</ul>
+
+</div>
+
+<a href="PowerPacks.html"
+class="btn">
+
+View Details
+
+</a>
+
+</div>
+
+</div>
+
+<!-- CARD 4 -->
+
+<div class="card">
+
+<div class="image">
+
+<img src="images/material.jpg"
+alt=""
+onerror="this.style.display='none'" />
+
+<div class="tag">
+HANDLING
+</div>
+
+</div>
+
+<div class="content">
+
+<h3>
+Material Handling
+</h3>
+
+<p>
+Industrial lifting and material
+handling equipment solutions.
+</p>
+
+<div class="list">
+
+<ul>
+
+<li>Hand Pallet Truck</li>
+<li>Hydraulic Stackers</li>
+<li>Floor Crane</li>
+<li>Goods Lift</li>
+<li>Storage Racks</li>
+
+</ul>
+
+</div>
+
+<a href="MaterialHandling.html"
+class="btn">
+
+View Details
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- FOOTER -->
+
+<div class="footer">
+
+<b>ProTech Industrial Tools</b>
+
+<br />
+
+Hydraulic Clamping · Industrial Automation ·
+Hydraulic Systems · Material Handling Equipment
+
+<br /><br />
+
+Email: info@protechindustrialtools.com
+
+<br />
+
+WhatsApp: +91 9270718653
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+	.testStyleNormal A:link 
+	{
+		text-decoration: none; 
+		color: #0079A4;
+	}
+	.testStyleNormal A:visited 
+	{
+		text-decoration : none; 
+		color: #0000FF;
+	}
+	.testStyleNormal A:active 
+	{
+		text-decoration: underline;
+		font-weight: bold;
+		color: #FF00FF;
+	}
+	.testStyleNormal A:hover 
+	{	
+		text-decoration: underline; 
+		font-weight: bold;
+		color: #0000FF;
+	}
+	body 
+	{
+		background-color: #FFFFFF;
+		margin-left: 50px;
+		margin-top: 0px;
+	}
+	body,td,th 
+	{
+		font-family: Arial, sans-serif;
+		font-size: 16px;
+		color: #000000;
+	}
+	hr 
+	{
+		height:1px; 
+		border-style:solid; 
+		border-width:1px 0 0 0;
+		border-color:#0079A4;
+	}		
+	.heading, .heading1, .heading2
+	{
+		font-family: Arial, sans-serif;
+		font-weight: bold;
+		font-size: 24px;
+		color: #0079A4;
+		margin: 0;
+	}		
+	.heading1
+	{
+		font-size: 20px;
+	}		
+	.heading2
+	{
+		font-size: 16px;
+	}		
+	.TableCellNormal, .TableCellNormal TD, .TableCellNormal TH, .TableCellNormal TR
+	{
+		font-family: sans-serif;
+		background-color: #FFFFFF;
+		text-align: center;
+	}
+	.TableCellNormal TD
+	{
+		font-size: 16px;
+		height: 22px;	
+	}
+	.TableCellDarkBold, .TableCellDarkBold TD, .TableCellDarkBold TH, .TableCellDarkBold TR
+	{
+		font-weight: bold;
+		background-color: #EEEEEE;
+	}
+	.TableCellBold, .TableCellBold TD, .TableCellBold TH, .TableCellBold TR
+	{
+		font-weight: bold;
+	}
+	.TableCellDark, .TableCellDark TD, .TableCellDark TH, .TableCellDark TR
+	{
+		background-color: #EEEEEE;
+	}		
